@@ -1,0 +1,41 @@
+.drop-down-list {
+    font-family: sans-serif;
+    position: relative;
+    width: 400px;
+}
+
+.completion-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 2px);
+    position: absolute;
+    border: solid 1px #ababab;
+    border-top: none;
+}
+
+.search-box {
+    width: calc(100% - 20px);
+    outline: none;
+    border-width: 0 0 4px 0;
+    border-style: solid;
+    border-color: darkblue;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.completion-list li {}
+
+.completion-list .found {
+    font-weight: bold;
+    color: midnightblue
+}
+
+.completion-list .search-item {
+    padding: 10px;
+}
+
+.completion-list .search-item:hover {
+    background-color: #dfdfdf;
+    cursor: pointer;
+}

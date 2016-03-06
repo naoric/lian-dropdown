@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+
+<body ng-app="MyApp">
+    <div class="drop-down-list">
+        <input type="text" class="search-box" placeholder="This should be customized by an attribute" value="Term">
+        <ul class="completion-list">
+            <li class="search-item"><span class="found">Term</span>inology</li>
+            <li class="search-item"><span class="found">Term</span>us</li>
+            <li class="search-item">Highlight found <span class="found">Term</span></li>
+        </ul>
+    </div>
+
+
+
+    <script src="lib/angular.js"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
